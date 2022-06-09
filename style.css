@@ -1,16 +1,39 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
-    h2 {
-      color: red;
-      border: 1px solid black
-    }
 /*
-en visual studio code control+K
-control+u para realizar comentarios 
-*/
-    h1 {
-      color: blue;
-      font-size: 60px;
-    }
+selectores de tipo
+
+
+h2{
+  color: orange;
+  font-size:30px;
+  
+}
+con las comas tawmbien se puede separar las etiquitas 
+
+h2,p{
+  color: brown;
+  font-size:30px;
+  border: 1px solid black;
+}
+
+-- selectores de clase
+
+
+.titulo{
+  color: brown;
+  font-size:30px;
+  border: 1px solid black;
+}
+.negrita{
+  font-weight:bold;
+}
+
+selectores de id
+#titulo{
+   color: steelblue;
+  font-size:50px; 
+}
+selector univeersal*/
+*{
+   color: steelblue;
+  font-size:50px;   
+}
