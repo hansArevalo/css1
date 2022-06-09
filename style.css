@@ -6,7 +6,11 @@ html, body {
       color: red;
       border: 1px solid black
     }
-
+/*
+en visual studio code control+K
+control+u para realizar comentarios 
+*/
     h1 {
-      color: blue
+      color: blue;
+      font-size: 60px;
     }
